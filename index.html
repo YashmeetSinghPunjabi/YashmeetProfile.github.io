@@ -51,7 +51,7 @@
                             <img src="./images/userAsset/plus.png" alt="" />
                           </div>
                           <div class="user-image">
-                            <img src="./images/userAsset/yash.jpeg" alt="" />
+                            <img src="./images/userAsset/Y2.jpg" alt="" />
                           </div>
                     </div>
                 
@@ -258,38 +258,42 @@
 
 
           <div class="contactus-form-container">
-            <form class="form" action="">
+           
+            <form class="form" onsubmit="sendmail()">
               <div class="formfield-container">
                 <input class="formfield" 
                 type="text" 
                 name="name" 
-                id="" 
+                id="name" 
                 placeholder="Enter your name" />
 
                 <input class="formfield" 
                 type="email" 
                 name="email" 
-                id="" 
+                id="email" 
                 placeholder="Enter your email address" />
 
                 <input class="formfield" 
                 type="text" 
                 name="subject" 
-                id="" 
+                id="subject" 
                 placeholder="Enter your subject" />
 
                 <textarea name="message" 
-                id="" cols="30" rows="10" 
+                id="" cols="30" rows="10" id="body"
                 class="formfield formfield-textarea"
                 placeholder="Enter your message"></textarea>
+                
+                <button type="submit" class="btn-pink" id="submit-btn"  >
+                  Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                </button>
+
 
               </div>
               
-              <div>
-               <a href="new.html"> <button type="submit" class="btn-pink" id="submit-btn">
-                  Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
-                </button>
-              </a>
+             
+                
+             
               </div>
 
             </form>
@@ -330,21 +334,14 @@
       </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <input type="button" value="Send Email" onclick="sendEmail()">
+ 
   <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
-  <script>
-    var typeData = new Typed(".role", {
-      strings: [
-        "Full Stack Developer",
-        "Web Developer",
-        "UI-UX Designer",
-        "Backend Developer",
-        "Coder",
-      ],
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 80,
-      backDelay: 1000,
-    });
+  
+  <script src="script.js">
+
+    
   </script>
 </body>
 </html>
