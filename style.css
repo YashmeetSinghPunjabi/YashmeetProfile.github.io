@@ -3,9 +3,12 @@
 *{
   margin:0;
   padding:0;
+  
   box-sizing:border-box;
   font-family: "Be Vietnam Pro", sans-serif;
   scroll-behavior: smooth;
+
+ 
 }
 :root {
   --bgOrange: #e84949;
@@ -18,8 +21,10 @@
 }
 
 .container{
+ 
     width:1200px;
     margin:0 auto;
+
 }
 
 .navbar{
@@ -31,6 +36,7 @@
 }
 
 .logo{
+ 
     width:80px;
 }
 
@@ -38,6 +44,7 @@
     display:flex;
     justify-content: baseline;
     align-items: center;
+    
 }
 
 .logo-text{
@@ -46,6 +53,7 @@
 }
 
 .nav-items{
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     display:flex;
     gap:2rem;
     padding: 0 4em;
@@ -73,6 +81,8 @@ a{
 }
 
 .hero-section{
+ 
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     position:relative;
     display:flex;
     justify-content: center;
@@ -413,6 +423,7 @@ a{
   }
   
   .project-subHeading{
+   
     width:70%;
     font-size:16px;
     font-style: italic;
@@ -586,6 +597,7 @@ a{
 }
 
 .skill-subHeading{
+  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
   margin-top: 1rem;
   width:85%;
   text-align: justify;
