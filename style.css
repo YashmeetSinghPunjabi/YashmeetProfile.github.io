@@ -53,7 +53,7 @@
 }
 
 .nav-items{
-  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+ 
     display:flex;
     gap:2rem;
     padding: 0 4em;
